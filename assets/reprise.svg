@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 440" width="1100" height="440" role="img" aria-labelledby="reprise-title reprise-desc" lang="fr" xml:lang="fr">
+  <title id="reprise-title">Reprendre un contexte depuis les sources revérifiées</title>
+  <desc id="reprise-desc">Un cache facultatif sert uniquement à retrouver les sources ; son lien pointillé ne rejoint pas la synthèse. Le parcours principal part des sources, passe par une inspection et aboutit à une seule page de reprise, dérivée et non auto-validée. Cette page réunit les faits étayés par les sources revérifiées, les inconnues ou conflits et l’action permise dans les limites du mandat. Les sources non revérifiées et les limites doivent être signalées. Un cache absent ou périmé n’autorise pas à inventer le contexte. Aucune mise à jour du cache ni approbation nouvelle n’est représentée.</desc>
+  <defs>
+    <marker id="reprise-arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#242926" stroke-width="1.8" stroke-linejoin="miter"/>
+    </marker>
+    <marker id="reprise-arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#62665c" stroke-width="1.8" stroke-linejoin="miter"/>
+    </marker>
+
+  </defs>
+
+  <rect width="1100" height="440" fill="#f4f1e9"/>
+
+  <!-- L’index facultatif ne mène qu’aux sources, sans raccourci vers la reprise. -->
+  <path d="M151 116 V170" fill="none" stroke="#62665c" stroke-width="2" stroke-dasharray="4 6" marker-end="url(#reprise-arrow-grey)"/>
+  <g stroke="#62665c" stroke-width="2" stroke-linejoin="miter">
+    <path d="M120 50 H164 L182 68 V110 H120 Z" fill="#fffdf7"/>
+    <path d="M164 50 V68 H182 M132 80 H167 M132 93 H158" fill="none"/>
+  </g>
+
+  <!-- Les sources convergent avant l’inspection ; le fil de restitution est continu. -->
+  <g fill="none" stroke-linejoin="round">
+    <g stroke="#62665c" stroke-width="2.2">
+      <path d="M154 207 H218 L300 280"/>
+      <path d="M154 280 H300"/>
+      <path d="M154 351 H218 L300 280"/>
+    </g>
+    <path d="M300 280 H487" stroke="#242926" stroke-width="2.5" marker-end="url(#reprise-arrow-ink)"/>
+    <path d="M547 280 H744" stroke="#242926" stroke-width="2.5" marker-end="url(#reprise-arrow-ink)"/>
+  </g>
+  <circle cx="300" cy="280" r="3.5" fill="#62665c"/>
+
+  <!-- Même vocabulaire de feuilles que la référence graphique approuvée. -->
+  <g fill="#fffdf7" stroke="#62665c" stroke-width="2" stroke-linejoin="miter">
+    <path d="M112 180 H141 L154 193 V234 H112 Z M141 180 V193 H154"/>
+    <path d="M112 252 H141 L154 265 V306 H112 Z M141 252 V265 H154"/>
+    <path d="M112 324 H141 L154 337 V378 H112 Z M141 324 V337 H154"/>
+  </g>
+  <g fill="none" stroke="#c6c7bc" stroke-width="2">
+    <path d="M122 206 H141 M122 218 H137"/>
+    <path d="M122 278 H141 M122 290 H137"/>
+    <path d="M122 350 H141 M122 362 H137"/>
+  </g>
+
+  <!-- Une inspection, sans losange d’approbation ni coche. -->
+  <g fill="none" stroke="#242926" stroke-linejoin="miter">
+    <circle cx="520" cy="280" r="27" fill="#fffdf7" stroke-width="2.8"/>
+    <path d="M539 299 L558 318" stroke-width="4"/>
+    <path d="M507 274 H533 M507 286 H526" stroke="#62665c" stroke-width="2.2"/>
+  </g>
+
+  <!-- Une seule synthèse en contour : trois repères réunis, pas trois issues. -->
+  <path d="M752 170 H1012 L1040 198 V396 H752 Z" fill="#fffdf7" stroke="#242926" stroke-width="2.8" stroke-linejoin="miter"/>
+  <path d="M1012 170 V198 H1040" fill="none" stroke="#242926" stroke-width="2.2" stroke-linejoin="miter"/>
+  <path d="M776 266 H1016 M776 326 H1016" fill="none" stroke="#c6c7bc" stroke-width="2"/>
+  <circle cx="789" cy="237" r="4" fill="#242926"/>
+  <circle cx="789" cy="297" r="4" fill="none" stroke="#62665c" stroke-width="2"/>
+  <path d="M777 357 H801" fill="none" stroke="#62665c" stroke-width="2.2" marker-end="url(#reprise-arrow-grey)"/>
+
+  <g fill="#242926" font-family="system-ui, sans-serif" font-size="24" font-weight="400">
+    <text x="210" y="80">Cache facultatif</text>
+    <text x="182" y="151">Retrouver</text>
+    <text x="133" y="416" text-anchor="middle">Sources</text>
+    <text x="520" y="224" text-anchor="middle">Revérifier</text>
+    <text x="896" y="132" text-anchor="middle" font-weight="600">Reprise</text>
+    <text x="820" y="244">Faits</text>
+    <text x="820" y="304">Inconnues</text>
+    <text x="820" y="364">Action permise</text>
+  </g>
+</svg>

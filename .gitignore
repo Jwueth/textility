@@ -1,0 +1,13 @@
+# État local : jamais distribué avec la méthode
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.obsidian/
+.env
+.env.*
+auth.json
+memories/
+sessions/
+state.db*
+*.log

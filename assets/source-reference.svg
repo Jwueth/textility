@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 416" width="1100" height="416" role="img" aria-labelledby="tri-title tri-desc" lang="fr" xml:lang="fr">
+  <title id="tri-title">Des sources à la référence, par la décision humaine</title>
+  <desc id="tri-desc">Plusieurs sources convergent vers une proposition distincte. Une inspection précède la décision humaine. De ce pivot partent trois issues illustrées : intégrer une référence, revenir à la proposition pour la retravailler, ou conserver une trace de refus. Le retour ne rejoint jamais directement la référence.</desc>
+  <defs>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#242926" stroke-width="1.8" stroke-linejoin="miter"/>
+    </marker>
+    <marker id="arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#62665c" stroke-width="1.8" stroke-linejoin="miter"/>
+    </marker>
+    <marker id="arrow-rust" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M2 1 L10 6 L2 11" fill="none" stroke="#9c422c" stroke-width="2.2" stroke-linejoin="miter"/>
+    </marker>
+  </defs>
+
+  <rect width="1100" height="416" fill="#f4f1e9"/>
+
+  <g transform="translate(0,-24)">
+    <!-- Connexions : convergence, inspection, puis trois issues du pivot. -->
+    <g fill="none" stroke-linejoin="round">
+      <g stroke="#62665c" stroke-width="2.2">
+        <path d="M94 160 H138 L220 230"/>
+        <path d="M94 230 H220"/>
+        <path d="M94 302 H138 L220 230"/>
+        <path d="M220 230 H270" marker-end="url(#arrow-grey)"/>
+      </g>
+      <g stroke="#242926" stroke-width="2.5">
+        <path d="M374 230 H443" marker-end="url(#arrow-ink)"/>
+        <path d="M503 230 H604" marker-end="url(#arrow-ink)"/>
+        <path d="M650 270 V363 Q650 383 630 383 H346 Q326 383 326 363 V300" marker-end="url(#arrow-ink)"/>
+      </g>
+      <!-- Refus : une seule courbe, du côté haut-droit du losange vers la feuille écartée. -->
+      <path d="M670 210 C810 210 780 122 799 122" stroke="#62665c" stroke-width="2.2" marker-end="url(#arrow-grey)"/>
+      <!-- Intégration : un seul fil continu, pointe seulement vers la référence. -->
+      <path d="M690 230 H942" stroke="#9c422c" stroke-width="3.2" marker-end="url(#arrow-rust)"/>
+    </g>
+    <circle cx="220" cy="230" r="3.5" fill="#62665c"/>
+
+    <!-- Sources : trois feuilles conservées, non une pile de cartes. -->
+    <g fill="#fffdf7" stroke="#62665c" stroke-width="2" stroke-linejoin="miter">
+      <path d="M52 133 H81 L94 146 V187 H52 Z M81 133 V146 H94"/>
+      <path d="M52 204 H81 L94 217 V258 H52 Z M81 204 V217 H94"/>
+      <path d="M52 275 H81 L94 288 V329 H52 Z M81 275 V288 H94"/>
+    </g>
+    <g fill="none" stroke="#c6c7bc" stroke-width="2">
+      <path d="M62 159 H81 M62 171 H77"/>
+      <path d="M62 230 H81 M62 242 H77"/>
+      <path d="M62 301 H81 M62 313 H77"/>
+    </g>
+
+    <!-- Proposition en contour ; loupe d'inspection sans signe d'approbation. -->
+    <g fill="none" stroke="#242926" stroke-linejoin="miter">
+      <path d="M276 164 H346 L374 192 V294 H276 Z" fill="#fffdf7" stroke-width="2.8"/>
+      <path d="M346 164 V192 H374" stroke-width="2.2"/>
+      <path d="M296 214 H352 M296 233 H344 M296 252 H352 M296 271 H329" stroke="#62665c" stroke-width="2.2"/>
+      <circle cx="476" cy="230" r="27" fill="#fffdf7" stroke-width="2.8"/>
+      <path d="M495 249 L514 268" stroke-width="4"/>
+      <path d="M463 224 H489 M463 236 H482" stroke="#62665c" stroke-width="2.2"/>
+    </g>
+
+    <!-- Articulation humaine : arrivée à gauche, issues haute, droite et basse. -->
+    <path d="M610 230 L650 190 L690 230 L650 270 Z" fill="#f4f1e9" stroke="#242926" stroke-width="3" stroke-linejoin="miter"/>
+
+    <!-- Refus consigné : une feuille intacte, branche terminale sans retour. -->
+    <g transform="translate(0,38)" stroke="#62665c" stroke-width="2" stroke-linejoin="miter">
+      <path d="M805 54 H849 L867 72 V114 H805 Z" fill="#fffdf7"/>
+      <path d="M849 54 V72 H867 M817 84 H852 M817 97 H843" fill="none"/>
+    </g>
+
+    <!-- Référence : même langage documentaire, mais masse d'encre affirmée. -->
+    <path d="M950 158 H1025 L1050 183 V302 H950 Z" fill="#242926" stroke="#242926" stroke-width="2.8" stroke-linejoin="miter"/>
+    <g fill="none" stroke="#fffdf7" stroke-width="2.4" stroke-linejoin="miter">
+      <path d="M1025 162 V183 H1046"/>
+      <path d="M970 214 H1030 M970 233 H1030 M970 252 H1030 M970 271 H1008"/>
+    </g>
+
+    <g fill="#242926" font-family="system-ui, sans-serif" font-size="24" font-weight="400" text-anchor="middle">
+      <text x="73" y="110">Sources</text>
+      <text x="325" y="132">Proposition</text>
+      <text x="476" y="184">Contrôle</text>
+      <text x="650" y="140" font-weight="600">Décision humaine</text>
+      <text x="811" y="268">Intégrer</text>
+      <text x="1000" y="130" font-weight="600">Référence</text>
+      <text x="488" y="416">À retravailler</text>
+      <text x="836" y="70" text-anchor="middle" fill="#242926">Écarté</text>
+    </g>
+  </g>
+</svg>

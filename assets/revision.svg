@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 440" width="1100" height="440" role="img" aria-labelledby="revision-title revision-desc" lang="fr" xml:lang="fr">
+  <title id="revision-title">Réviser le fond d’une référence sans hériter de son approbation</title>
+  <desc id="revision-desc">La référence actuelle, pleine, nourrit une candidate distincte en contour. Pour ce changement de fond, la candidate n’hérite pas de l’ancienne approbation : une décision humaine précède le fil d’application vers la référence révisée, pleine. Aucun lien direct ne relie la candidate à la référence révisée. Une association grise pointillée, sans flèche, relie la référence actuelle à une copie récupérable dans l’historique, figurée par deux feuilles superposées, sans déplacer ni invalider la référence actuelle avant la décision. Un second lien part du trajet d’application vers une traverse regroupant les dépendances : seules celles incluses dans le mandat accepté sont adaptées, les autres sont signalées. Ce schéma ne réimpose pas un accord pour chaque correction triviale déjà explicitement autorisée et n’accorde aucune autorisation de publication.</desc>
+  <defs>
+    <marker id="revision-arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#242926" stroke-width="1.8" stroke-linejoin="miter"/>
+    </marker>
+
+    <marker id="revision-arrow-rust" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M2 1 L10 6 L2 11" fill="none" stroke="#9c422c" stroke-width="2.2" stroke-linejoin="miter"/>
+    </marker>
+  </defs>
+
+  <rect width="1100" height="440" fill="#f4f1e9"/>
+
+  <!-- Deux relations annexes courtes, sans modifier l’ordre de décision. -->
+  <g fill="none" stroke="#62665c" stroke-width="2.2" stroke-linejoin="round">
+    <path d="M120 292 V334" stroke-width="2" stroke-dasharray="4 6"/>
+    <path d="M823 220 V314"/>
+    <path d="M730 322 V314 H916 V322" stroke-width="2"/>
+  </g>
+
+  <!-- Actuelle, candidate, décision, puis application : aucun contournement. -->
+  <g fill="none" stroke-linejoin="round">
+    <g stroke="#242926" stroke-width="2.5">
+      <path d="M170 220 H302" marker-end="url(#revision-arrow-ink)"/>
+      <path d="M408 220 H574" marker-end="url(#revision-arrow-ink)"/>
+    </g>
+    <path d="M660 220 H942" stroke="#9c422c" stroke-width="3.2" marker-end="url(#revision-arrow-rust)"/>
+  </g>
+
+  <!-- Référence actuelle : même masse d’encre que la référence approuvée. -->
+  <path d="M70 148 H145 L170 173 V292 H70 Z" fill="#242926" stroke="#242926" stroke-width="2.8" stroke-linejoin="miter"/>
+  <g fill="none" stroke="#fffdf7" stroke-width="2.4" stroke-linejoin="miter">
+    <path d="M145 152 V173 H166"/>
+    <path d="M90 204 H150 M90 223 H150 M90 242 H150 M90 261 H128"/>
+  </g>
+
+  <!-- Copie candidate : une feuille distincte, jamais remplie comme référence. -->
+  <g fill="none" stroke="#242926" stroke-linejoin="miter">
+    <path d="M310 154 H380 L408 182 V284 H310 Z" fill="#fffdf7" stroke-width="2.8"/>
+    <path d="M380 154 V182 H408" stroke-width="2.2"/>
+    <path d="M330 204 H386 M330 223 H378 M330 242 H386 M330 261 H363" stroke="#62665c" stroke-width="2.2"/>
+  </g>
+
+  <!-- Le pivot humain sépare matériellement la candidate de l’application. -->
+  <path d="M580 220 L620 180 L660 220 L620 260 Z" fill="#f4f1e9" stroke="#242926" stroke-width="3" stroke-linejoin="miter"/>
+
+  <!-- Référence révisée, au terme du seul fil rouille continu. -->
+  <path d="M950 148 H1025 L1050 173 V292 H950 Z" fill="#242926" stroke="#242926" stroke-width="2.8" stroke-linejoin="miter"/>
+  <g fill="none" stroke="#fffdf7" stroke-width="2.4" stroke-linejoin="miter">
+    <path d="M1025 152 V173 H1046"/>
+    <path d="M970 204 H1030 M970 223 H1030 M970 242 H1030 M970 261 H1008"/>
+  </g>
+
+  <!-- Historique : deux feuilles superposées pour une copie récupérable. -->
+  <g stroke="#62665c" stroke-width="2" stroke-linejoin="miter">
+    <path d="M81 342 H125 L143 360 V402 H81 Z" fill="#fffdf7"/>
+    <path d="M125 342 V360 H143" fill="none"/>
+    <path d="M89 350 H133 L151 368 V410 H89 Z" fill="#fffdf7"/>
+    <path d="M133 350 V368 H151 M101 380 H136 M101 393 H127" fill="none"/>
+  </g>
+
+  <!-- Les dépendances sont des documents, non une permission globale. -->
+  <g fill="#fffdf7" stroke="#62665c" stroke-width="2" stroke-linejoin="miter">
+    <path d="M742 332 H771 L784 345 V386 H742 Z M771 332 V345 H784"/>
+    <path d="M802 332 H831 L844 345 V386 H802 Z M831 332 V345 H844"/>
+    <path d="M862 332 H891 L904 345 V386 H862 Z M891 332 V345 H904"/>
+  </g>
+  <g fill="none" stroke="#c6c7bc" stroke-width="2">
+    <path d="M752 358 H771 M752 370 H767"/>
+    <path d="M812 358 H831 M812 370 H827"/>
+    <path d="M872 358 H891 M872 370 H887"/>
+  </g>
+
+  <g fill="#242926" font-family="system-ui, sans-serif" font-size="24" font-weight="400" text-anchor="middle">
+    <text x="120" y="120" font-weight="600">Actuelle</text>
+    <text x="359" y="120">Candidate</text>
+    <text x="620" y="120" font-weight="600">Décision humaine</text>
+    <text x="805" y="196">Appliquer</text>
+    <text x="1000" y="120" font-weight="600">Révisée</text>
+    <text x="182" y="386" text-anchor="start">Historique</text>
+    <text x="823" y="422">Dépendances</text>
+  </g>
+</svg>

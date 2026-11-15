@@ -1,0 +1,207 @@
+{
+  "project": "Textility",
+  "release": "unreleased",
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 159,
+      "sha256": "dc71a572b68bd80a30059666b37e7aeaa8b4dda98454e97dfd6bc4447019967f"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 2220,
+      "sha256": "07a7ea30f0615d6d89235b4a71d9bb6c6a7fbc703e024b43718958d80507698c"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1081,
+      "sha256": "2e7e91bfdb5472a39b5dc6af84a317f44c81f29e6687285b37e1b31207ebc44f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6409,
+      "sha256": "326f3e1cc06e4bd4287a9e3136aeefc111a346100bf5bb119deb699ed53ea0a8"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 979,
+      "sha256": "0c2baff1b1f5588445690bd9a225e9d1da42ce27ad94306eaa0c17f8cf5b0c89"
+    },
+    {
+      "path": "assets/reprise.svg",
+      "bytes": 4621,
+      "sha256": "1c816bcbbbfccc818c4b76182fff17611fbe1ec0eec53e1f9ab06824586872b1"
+    },
+    {
+      "path": "assets/revision.svg",
+      "bytes": 5478,
+      "sha256": "adaaf0041e0ca4e2b65a1a26fe89c68cd4f14e72754f574403bee81e25d3da24"
+    },
+    {
+      "path": "assets/source-reference.svg",
+      "bytes": 5333,
+      "sha256": "a0c672368bc2fa1c9f42de2ce6b459223c1800adff9739c345c93728d22b1469"
+    },
+    {
+      "path": "docs/01-principes.md",
+      "bytes": 5035,
+      "sha256": "f7b7e49dbcc01b3cb3fd96a16d1ba2ab1c6f002ebac9ce0f9a989a82c155f87f"
+    },
+    {
+      "path": "docs/02-conventions.md",
+      "bytes": 5448,
+      "sha256": "6895ad904c8387c2ad527756ba128492aca689ca4bb7fa8c26aea7c82db6e397"
+    },
+    {
+      "path": "docs/03-workflows.md",
+      "bytes": 5373,
+      "sha256": "f428fdc35954adacbebb27e8b16479b170d3d867859209bff58d9a4531bee980"
+    },
+    {
+      "path": "docs/04-adoption.md",
+      "bytes": 4869,
+      "sha256": "6f02d9c111e423d7a84a700cfa9a72ca80f97dcfc4add574bc5c53650d41fe2b"
+    },
+    {
+      "path": "docs/05-maintenance-securite.md",
+      "bytes": 3184,
+      "sha256": "2e58523f5e0dc7adb62e94af06a6446b2d2d59f41b3ea5a7b6dc206cadea6239"
+    },
+    {
+      "path": "docs/06-provenance.md",
+      "bytes": 3427,
+      "sha256": "1619949819543bca7309e02033b96ca62f71100aa1b3236dc412d3aa971a60ba"
+    },
+    {
+      "path": "examples/SCENARIO.md",
+      "bytes": 2886,
+      "sha256": "d9f998c5a002abbf28bdcd52b3e72d64add2ead82abdebb2ac1a9699c1ef7817"
+    },
+    {
+      "path": "examples/vault/00_Inbox/Question - conservation.md",
+      "bytes": 895,
+      "sha256": "7fca7fd36d7f60ebbb737a0020b810159337340d70423e5a9e32b55c87a94bde"
+    },
+    {
+      "path": "examples/vault/10_References/Decision - registre unique.md",
+      "bytes": 1084,
+      "sha256": "49cd9cf4513daf17d804c9aaa02a626d9e2ec11f0a39ed0c6c53611b45b890f1"
+    },
+    {
+      "path": "examples/vault/10_References/Reference - pret de materiel.md",
+      "bytes": 1154,
+      "sha256": "d2658fd3ef89e96d0cbc4ab380d552057f1b51e2214f91caa947f04901ae6d75"
+    },
+    {
+      "path": "examples/vault/10_References/Source - besoin.md",
+      "bytes": 735,
+      "sha256": "283ec36bf52cd0617e6f3bb3a4e3500d72ee10da691875a8c24cff16a277af43"
+    },
+    {
+      "path": "examples/vault/80_Reprise/Reprise - pret de materiel.md",
+      "bytes": 1079,
+      "sha256": "158039fd1a78e7523f30de1b02c3a86f605ae3aa74b39c35512c9ff3adf35d68"
+    },
+    {
+      "path": "examples/vault/90_Traces/Trace - integration du scenario.md",
+      "bytes": 847,
+      "sha256": "71884bc7338ac2655ed48b52f4c66d5d2e89fd516083623f42f4133748f29953"
+    },
+    {
+      "path": "examples/vault/99_Archives/Proposition - copie personnelle.md",
+      "bytes": 828,
+      "sha256": "99f37e2f50bfaa6c4d68a884fc19f460846900404f86ddd96783c357ba005873"
+    },
+    {
+      "path": "examples/vault/99_Archives/Proposition - registre unique.md",
+      "bytes": 950,
+      "sha256": "21c73577191539e90b298e39627984e07f4b9d9ee9f8274e459a856560ef7406"
+    },
+    {
+      "path": "examples/vault/AGENTS.md",
+      "bytes": 1965,
+      "sha256": "cdbead31709ddb7eb09aa4b5297502ede1f16af9f6e45aa42824bdcf725d13ff"
+    },
+    {
+      "path": "examples/vault/Accueil.md",
+      "bytes": 832,
+      "sha256": "707efdb9776fd8785c8a3b098a07cd91122527c5612899cff61cb5bafee0c0ec"
+    },
+    {
+      "path": "scripts/README.md",
+      "bytes": 3567,
+      "sha256": "b1234033a650d24fe7c31791d5b23b6e46facb9b494bd219725e25c136e9d381"
+    },
+    {
+      "path": "scripts/check_pack.py",
+      "bytes": 5661,
+      "sha256": "ff7afab802e1dd6741eacbcc80bf1b44580f4d509e8a7497b0a23f5870fa1dca"
+    },
+    {
+      "path": "scripts/test_check_pack.py",
+      "bytes": 5581,
+      "sha256": "dfcd8efb41b48512ba7399e6294cfe7622be6aecd63dfe225c7f7358f9df5f1c"
+    },
+    {
+      "path": "skills/README.md",
+      "bytes": 1248,
+      "sha256": "7edf0f6be8c0ba6ab899c1f1f1c14c307051ab85efbaa95684f3cc5f726ebe41"
+    },
+    {
+      "path": "skills/gd-cadrer-echange/SKILL.md",
+      "bytes": 1657,
+      "sha256": "2491ae7e3f1ba70f3e6d048f90161246003c659a2dca05292e060ef3cedff82b"
+    },
+    {
+      "path": "skills/gd-curer-document/SKILL.md",
+      "bytes": 1883,
+      "sha256": "87d216c7b8a6e6ba97b729c752c18cdbe1aa9a2100485199ba5ffd6fa6b3b5bd"
+    },
+    {
+      "path": "skills/gd-reprendre-contexte/SKILL.md",
+      "bytes": 1774,
+      "sha256": "cb2a36b15ac1ea7c8610c6934a5be7ea22ca6969fcc663c23947bafdfab1974f"
+    },
+    {
+      "path": "skills/gd-reviser-reference/SKILL.md",
+      "bytes": 1826,
+      "sha256": "1b3b500a081de824f8ce9886f7022349ded94b4ffa765d15649b50a46d8f9179"
+    },
+    {
+      "path": "templates/Contrat-intervention.md",
+      "bytes": 898,
+      "sha256": "aab868b509b71e0a3f6ed478ef23e4d08ea40f45af1045c6c75be596da0e5354"
+    },
+    {
+      "path": "templates/Decision.md",
+      "bytes": 673,
+      "sha256": "6f14c69d05b257c0be1d9e6145bf2ebd61fd3faa739bfddc2557aa32d7956d89"
+    },
+    {
+      "path": "templates/Proposition.md",
+      "bytes": 682,
+      "sha256": "032a788e01fda381994d49c85a4f2a618a5667b8d0f811c5986ba8ac183949ba"
+    },
+    {
+      "path": "templates/README.md",
+      "bytes": 1091,
+      "sha256": "70e945ad86662456a9fffc19cc1de7a0b88a84d7dd803991723dd3fadcae4dc1"
+    },
+    {
+      "path": "templates/Reference.md",
+      "bytes": 968,
+      "sha256": "92c1a0b69ca09b8a8c2579bc92b09fb589dda5f41e9fe4aaf6bc06e74c90e395"
+    },
+    {
+      "path": "templates/Reprise.md",
+      "bytes": 726,
+      "sha256": "e6ca543283817fc149870eb71b0c35b2b1b0a3ed723f9b4226e97fb506d694ca"
+    },
+    {
+      "path": "templates/Trace.md",
+      "bytes": 608,
+      "sha256": "1e2e070f9ff59a07a94de9f00da70595a4e1a97cf538efede0d0ea435b76af0a"
+    }
+  ]
+}
