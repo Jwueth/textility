@@ -6,26 +6,31 @@ Une note écrite par un agent peut être destinée à l’humain. Une convention
 
 Il faut donc séparer cinq questions : **qui produit**, **qui utilise**, **à quoi cela sert**, **ce qui fait autorité**, **qui peut faire évoluer le contenu**. Le dossier, l’auteur et le style ne répondent pas à ces questions à eux seuls.
 
-Un même objet peut changer de zone de responsabilité au cours de son cycle de vie. Cela ne lui impose ni une copie ni un déplacement physique.
+Les trois espaces décrivent **des fonctions dans la collaboration et les responsabilités associées**. Ils ne séparent ni les auteurs des documents ni les données publiques des données privées.
 
-## Trois zones de responsabilités
+## Trois espaces fonctionnels
 
-| Zone | Responsable principal | Responsabilités | Résultat attendu |
+| Espace | Fonction | Exemples | Responsabilité |
 |---|---|---|---|
-| Humaine | La personne responsable du sujet | Objectifs, arbitrages, validation, diffusion, limites d’accès | Mandat et décisions explicites |
-| Déléguée | L’agent, dans le mandat reçu | Recherche, préparation, contrôle, maintenance autorisée | Résultat sourcé, limites et preuve de contrôle |
-| Collaborative | L’humain et l’agent, avec une décision attribuée | Clarification, examen des propositions, traitement des contradictions | Accord, demande de correction ou refus explicite |
+| Agent | Organiser et préparer le travail de l'agent | Instructions, méthodes, skills, productions intermédiaires | L'agent entretient son outillage dans le cadre convenu, sans modifier seul son mandat |
+| Commun | Construire et conserver la matière partagée | Échanges, sources, analyses, références retenues | Humain et agent construisent le travail ; les décisions et les intégrations restent attribuées |
+| Humain | Rendre cette matière compréhensible et utilisable | Synthèses, vues, interfaces de consultation et d'intervention | L'humain comprend, corrige, priorise et décide ; l'agent peut construire et entretenir les supports |
 
-La responsabilité finale n’est pas « partagée » au point de devenir introuvable. Dans la zone collaborative, désigner qui tranche. La personne responsable peut déléguer une opération routinière précisément bornée ; cela ne permet pas à l’agent d’inventer une autorité d’approbation ou d’étendre son mandat.
+**« Humain » désigne ici l'usage et la prise en main, pas l'exclusion de l'agent.** Une interface destinée à l'humain peut être produite par l'agent et alimentée par une source commune.
 
-### Ce que les zones ne sont pas
+Ces espaces sont reliés, pas trois étapes obligatoires ni trois arbres de dossiers. L'agent prépare et restitue ; l'humain examine et intervient ; les retours autorisés sont intégrés à la matière partagée. Ce qui est retenu peut servir aux travaux suivants. La personne qui décide doit rester identifiable.
 
-- Pas trois vaults ou trois arbres de dossiers à créer obligatoirement.
-- Pas une classification des données publiques et privées.
-- Pas une preuve d’isolation technique ou une liste de permissions système.
-- Pas une répartition « humain rédige / agent exécute » : les deux peuvent contribuer.
+![Trois espaces fonctionnels reliés : cadre et préparation côté agent, matière partagée au centre, compréhension et intervention côté humain ; les retours reviennent au travail commun.](../assets/modes-espaces.svg)
 
-Une instruction destinée à l’agent relève par exemple de la zone humaine lorsque l’humain en fixe les permissions. Une synthèse préparée par l’agent passe dans la zone collaborative pour examen. Une référence validée reste sous responsabilité humaine, même si l’agent l’entretient sur mandat.
+### Exemple : un registre fictif et sa vue de consultation
+
+L'agent entretient une procédure d'export dans son mandat. Le registre partagé porte les données de référence ; une vue HTML les rend lisibles pour l'humain. Celui-ci peut comprendre la situation et proposer une correction, qui revient à la source après les contrôles et autorisations nécessaires.
+
+La vue est construite par l'agent, utilisée par l'humain et alimentée depuis la matière commune. Elle ne devient pas une seconde source de vérité. La sécurité des accès reste un sujet distinct : ces espaces fonctionnels ne constituent pas un cloisonnement technique.
+
+### Le champ `zone` du démonstrateur
+
+Le schéma, les modèles et les procédures du démonstrateur conservent le vocabulaire `zone` et ses valeurs `humaine`, `deleguee`, `collaborative`. Il s'agit d'un repère de responsabilité à une étape, pas d'une classification automatique des trois espaces fonctionnels, d'un emplacement ou d'une permission. Cette clarification ne modifie ni les métadonnées ni le vérificateur ; une éventuelle évolution du champ demande un choix distinct.
 
 ## Qui fait foi pour quoi ?
 

@@ -14,7 +14,28 @@ Ces conventions sont celles du **mini-vault de démonstration**. Dans un vault e
 | Trace | Permettre un contrôle différé | Une connaissance durable à copier partout |
 | Instruction | Définir un comportement ou mandat | Une permission technique effectivement appliquée |
 
+Un registre peut organiser plusieurs de ces familles sous forme de lignes identifiées : sources, questions ou décisions. Ce n’est pas une autorité supplémentaire ni un nouveau `type` du schéma ci-dessous. Les [modèles de registres](04-registres.md) sont facultatifs et ne changent pas les métadonnées du mini-vault. L’approbation du fichier ou de sa structure ne valide pas automatiquement ses lignes.
+
 Le titre facilite la navigation ; il ne remplace pas la qualification du document. « Final », « vérifié » ou « approuvé » dans un nom ne prouve rien.
+
+## Formes documentaires et qualification
+
+Une **famille** indique la fonction du contenu dans le travail ; une **forme documentaire** organise sa lecture ou son usage. Un compte rendu peut conserver une source ou proposer une synthèse. Un guide peut expliquer une règle approuvée ou en proposer une nouvelle. Ni le titre ni l'extension du fichier ne suffisent à lui attribuer une autorité.
+
+| Forme | Usage | Qualification à rendre explicite |
+|---|---|---|
+| Analyse / diagnostic | Examiner des sources, une situation ou des options | Séparer constats, déductions, hypothèses et recommandations. Une analyse ne propose pas nécessairement un changement. |
+| Synthèse / compte rendu | Rendre un échange ou un corpus exploitable | Distinguer la source conservée du texte dérivé ; attribuer les décisions rapportées sans les présumer approuvées. |
+| Guide / procédure / skill | Expliquer une pratique ou guider une action | Préciser portée, déclencheur, étapes et limites. Une instruction n'accorde pas de permission technique ; sa rédaction ne prouve pas son exécution. |
+| Glossaire / fiche de connaissance | Stabiliser un sens ou retrouver une connaissance | Distinguer définition proposée et référence retenue, avec sources et périmètre. Un même mot peut garder plusieurs sens contextualisés. |
+| Index / hub / tableau de bord | Naviguer, sélectionner et comprendre | Renvoyer aux objets qui font foi ; préciser périmètre et fraîcheur des informations dérivées plutôt qu'en maintenir une seconde version. |
+| Leçon réutilisable | Transformer un résultat observé en règle pratique | Relier observation, règle candidate, destination et vérification. Un récit ou une intention d'amélioration ne prouve pas l'intégration. |
+| Registre | Suivre des objets identifiés dans le temps | Qualifier les lignes indépendamment du contenant ; voir la [démarche de tenue](04-registres.md). |
+| Vue / projection générée | Présenter les données d'un maître selon un usage | Nommer la source, sa version et le périmètre de génération ; une retouche de la vue ne corrige pas automatiquement le maître. Voir [maître et projections](06-classeur-maitre.md) et [vues HTML](07-html-pour-comprendre.md). |
+
+Ce catalogue aide à choisir un document, pas à en créer un pour chaque besoin. Réutiliser une forme et une destination existantes lorsqu'elles suffisent. Un même fichier peut réunir plusieurs fonctions si leurs frontières et leur autorité restent lisibles.
+
+Ces formes **n'ajoutent aucune valeur au champ `type`** du démonstrateur. Elles ne reçoivent pas toutes une correspondance unique avec ses sept valeurs. Dans un environnement existant, appliquer les conventions locales ; hors du cas minimal, ne pas forcer une qualification inadéquate pour satisfaire son vérificateur. Étendre le schéma, les modèles ou les contrôles demanderait une décision distincte.
 
 ## Un schéma d’exemple, pas une obligation universelle
 
@@ -61,7 +82,7 @@ Une correction de fond d’une référence ouvre une proposition de révision. L
 
 ## Organisation physique : un exemple seulement
 
-Le mini-vault utilise `00_Inbox`, `10_References`, `80_Reprise`, `90_Traces`, `99_Archives`. Ces dossiers facilitent la lecture du scénario ; ils ne définissent pas les trois zones de responsabilités. Le rangement n’accorde aucune autorité au contenu.
+Le mini-vault utilise `00_Inbox`, `10_References`, `80_Reprise`, `90_Traces`, `99_Archives`. Ces dossiers facilitent la lecture du scénario ; ils ne définissent ni les trois espaces fonctionnels ni les droits d'accès. Le champ `zone` conserve son rôle de repère de responsabilité dans ce démonstrateur, comme l'explique le [chapitre des principes](01-principes.md). Le rangement n’accorde aucune autorité au contenu.
 
 Les modèles restent dans `templates/`, les procédures dans `skills/`, et la documentation du kit dans `docs/`. Le kit ne crée pas de copie de référence « pour l’agent ». Le cache renvoie à la référence commune.
 

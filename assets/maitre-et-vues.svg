@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" width="1100" height="700" role="img" aria-labelledby="maitre-title maitre-desc" lang="fr" xml:lang="fr">
+<title id="maitre-title">Un maître, plusieurs vues de compréhension</title><desc id="maitre-desc">Une source désignée alimente un modèle de lecture puis plusieurs vues du même contenu. Le lecteur consulte ces vues, qui ne deviennent pas des maîtres concurrents. Un circuit d&#x27;édition distinct et facultatif passe par une écriture autorisée, des contrôles et une régénération. Ce dessin explique une méthode, pas une application ou un writer livré.</desc>
+<defs><marker id="maitre-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#242926" stroke-width="2"/></marker><marker id="maitre-rust" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#9c422c" stroke-width="2"/></marker><marker id="maitre-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#62665c" stroke-width="2"/></marker></defs>
+<style>text{font-family:system-ui,sans-serif}path,line,rect,polygon,circle{vector-effect:non-scaling-stroke}.edge{fill:none;stroke-linejoin:round;stroke-linecap:round}</style>
+<rect width="1100" height="700" fill="#f4f1e9"/>
+<text x="50" y="48" text-anchor="start" font-size="28" font-weight="600" fill="#242926" data-max-width="1000">Un maître, plusieurs vues</text>
+<text x="50" y="81" text-anchor="start" font-size="20" font-weight="400" fill="#62665c" data-max-width="1000">Une source fait foi ; les vues organisent sa compréhension.</text>
+<g data-step="1">
+<text x="135" y="204" text-anchor="middle" font-size="22" font-weight="600" fill="#242926" data-max-width="235">Maître désigné</text>
+<text x="135" y="232" text-anchor="middle" font-size="18" font-weight="400" fill="#62665c" data-max-width="180">Ex. classeur</text>
+<path d="M60 250 H188 L210 272 V420 H60 Z" fill="#242926" stroke="#242926" stroke-width="2" data-node="master" />
+<path d="M188 250 V272 H210" fill="none" stroke="#fffdf7" stroke-width="1.5"/>
+<rect x="76" y="293" width="118" height="108" rx="2" fill="#242926" stroke="#fffdf7" stroke-width="1.4" />
+<path d="M76 316 H194" stroke="#fffdf7" stroke-width="1.3"/>
+<path d="M76 339 H194" stroke="#fffdf7" stroke-width="1.3"/>
+<path d="M76 362 H194" stroke="#fffdf7" stroke-width="1.3"/>
+<path d="M132.0 293 V401" stroke="#fffdf7" stroke-width="1.3"/>
+</g>
+<g data-step="2">
+<path class="edge" d="M210 340 L350 340" stroke="#242926" stroke-width="2.5" marker-end="url(#maitre-ink)" data-route="[[210, 340], [350, 340]]" data-source="master" data-target="model"/>
+<text x="280" y="313" text-anchor="middle" font-size="18" font-weight="400" fill="#242926" data-max-width="130">Structurer</text>
+<text x="455" y="210" text-anchor="middle" font-size="22" font-weight="600" fill="#242926" data-max-width="270">Modèle de lecture</text>
+<rect x="350" y="250" width="210" height="170" rx="2" fill="#fffdf7" stroke="#242926" stroke-width="2" data-node="model"/>
+<path d="M402 292 H507 M402 292 L455 370 M507 292 L455 370" fill="none" stroke="#62665c" stroke-width="2"/>
+<circle cx="402" cy="292" r="18" fill="#f4f1e9" stroke="#242926" stroke-width="2"/>
+<circle cx="507" cy="292" r="18" fill="#f4f1e9" stroke="#242926" stroke-width="2"/>
+<circle cx="455" cy="370" r="18" fill="#f4f1e9" stroke="#242926" stroke-width="2"/>
+<text x="455" y="454" text-anchor="middle" font-size="18" font-weight="400" fill="#62665c" data-max-width="260">Objets et relations</text>
+</g>
+<g data-step="3">
+<path class="edge" d="M560 340 L635 340" stroke="#242926" stroke-width="2.5" marker-end="url(#maitre-ink)" data-route="[[560, 340], [635, 340]]" data-source="model" data-target=""/>
+<path class="edge" d="M635 190 L635 490" stroke="#242926" stroke-width="2.5" data-route="[[635, 190], [635, 490]]" data-source="" data-target=""/>
+<path class="edge" d="M635 190 L700 190" stroke="#242926" stroke-width="2.5" marker-end="url(#maitre-ink)" data-route="[[635, 190], [700, 190]]" data-source="" data-target="view0"/>
+<rect x="700" y="140" width="235" height="100" rx="2" fill="#fffdf7" stroke="#242926" stroke-width="2" data-node="view0"/>
+<text x="719" y="173" text-anchor="start" font-size="21" font-weight="600" fill="#242926" data-max-width="205">Ensemble</text>
+<rect x="721" y="204" width="16" height="19" rx="2" fill="#f4f1e9" stroke="#62665c" stroke-width="1" />
+<rect x="750" y="192" width="16" height="31" rx="2" fill="#f4f1e9" stroke="#62665c" stroke-width="1" />
+<rect x="779" y="200" width="16" height="23" rx="2" fill="#f4f1e9" stroke="#62665c" stroke-width="1" />
+<rect x="808" y="187" width="16" height="36" rx="2" fill="#f4f1e9" stroke="#62665c" stroke-width="1" />
+<path class="edge" d="M635 340 L700 340" stroke="#242926" stroke-width="2.5" marker-end="url(#maitre-ink)" data-route="[[635, 340], [700, 340]]" data-source="" data-target="view1"/>
+<rect x="700" y="290" width="235" height="100" rx="2" fill="#fffdf7" stroke="#242926" stroke-width="2" data-node="view1"/>
+<text x="719" y="323" text-anchor="start" font-size="21" font-weight="600" fill="#242926" data-max-width="205">Sélection</text>
+<rect x="720" y="342" width="145" height="30" rx="2" fill="#f4f1e9" stroke="#62665c" stroke-width="1" />
+<path d="M731 352 H853 M731 362 H816" stroke="#62665c" stroke-width="1.4"/>
+<path class="edge" d="M635 490 L700 490" stroke="#242926" stroke-width="2.5" marker-end="url(#maitre-ink)" data-route="[[635, 490], [700, 490]]" data-source="" data-target="view2"/>
+<rect x="700" y="440" width="235" height="100" rx="2" fill="#fffdf7" stroke="#242926" stroke-width="2" data-node="view2"/>
+<text x="719" y="473" text-anchor="start" font-size="21" font-weight="600" fill="#242926" data-max-width="205">Détail</text>
+<path d="M721 497 H910 M721 511 H883 M721 525 H858" stroke="#62665c" stroke-width="1.4"/>
+<text x="805" y="117" text-anchor="middle" font-size="20" font-weight="600" fill="#242926" data-max-width="300">Vues de la même base</text>
+</g>
+<g data-step="4">
+<path class="edge" d="M935 190 L975 190" stroke="#242926" stroke-width="2.5" data-route="[[935, 190], [975, 190]]" data-source="view0" data-target=""/>
+<path class="edge" d="M935 340 L975 340" stroke="#242926" stroke-width="2.5" data-route="[[935, 340], [975, 340]]" data-source="view1" data-target=""/>
+<path class="edge" d="M935 490 L975 490" stroke="#242926" stroke-width="2.5" data-route="[[935, 490], [975, 490]]" data-source="view2" data-target=""/>
+<path class="edge" d="M975 190 L975 490" stroke="#242926" stroke-width="2.5" data-route="[[975, 190], [975, 490]]" data-source="" data-target=""/>
+<path class="edge" d="M975 340 L1009 340" stroke="#242926" stroke-width="2.5" marker-end="url(#maitre-ink)" data-route="[[975, 340], [1009, 340]]" data-source="" data-target=""/>
+<text x="1030" y="282" text-anchor="middle" font-size="20" font-weight="600" fill="#242926" data-max-width="125">Lecteur</text>
+<circle cx="1030" cy="330" r="18" fill="#fffdf7" stroke="#242926" stroke-width="2.4"/><path d="M1005 405 V380 C1005 348 1055 348 1055 380 V405" fill="none" stroke="#242926" stroke-width="2.4"/>
+</g>
+<g data-step="5">
+<path class="edge" d="M1030 425 L1030 602 L520 602" stroke="#9c422c" stroke-width="2.5" stroke-dasharray="7 6" marker-end="url(#maitre-rust)" data-route="[[1030, 425], [1030, 602], [520, 602]]" data-source="" data-target=""/>
+<polygon points="460,602 490,572 520,602 490,632" fill="#fffdf7" stroke="#9c422c" stroke-width="2.5" data-node="write-gate" data-kind="diamond"/>
+<text x="490" y="554" text-anchor="middle" font-size="20" font-weight="600" fill="#9c422c" data-max-width="260">Écriture autorisée</text>
+<path class="edge" d="M460 602 L135 602 L135 420" stroke="#9c422c" stroke-width="2.5" stroke-dasharray="7 6" marker-end="url(#maitre-rust)" data-route="[[460, 602], [135, 602], [135, 420]]" data-source="" data-target="master"/>
+<text x="288" y="640" text-anchor="middle" font-size="18" font-weight="400" fill="#9c422c" data-max-width="285">Contrôler · enregistrer</text>
+<text x="810" y="639" text-anchor="middle" font-size="19" font-weight="400" fill="#9c422c" data-max-width="400">Circuit distinct, facultatif</text>
+<text x="50" y="684" text-anchor="start" font-size="18" font-weight="400" fill="#62665c" data-max-width="1000">Plein : lecture et génération. Pointillé : édition éventuelle, puis régénération des vues.</text>
+</g>
+</svg>

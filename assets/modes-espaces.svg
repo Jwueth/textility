@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" width="1100" height="640" role="img" aria-labelledby="espaces-title espaces-desc" lang="fr" xml:lang="fr">
+  <title id="espaces-title">Trois espaces fonctionnels reliés : agent, commun, humain</title>
+  <desc id="espaces-desc">L'espace agent contient le cadre de travail, les méthodes et les préparations. Il alimente l'espace commun, où se construisent les sources, analyses et références partagées. Une restitution relie cette matière aux vues et interfaces de l'espace humain, qui permettent de comprendre et d'intervenir. Les corrections reviennent au commun et les acquis peuvent être réutilisés par l'agent. Ce ne sont ni trois étapes obligatoires ni des niveaux d'accès ; l'agent peut entretenir les interfaces destinées à l'humain.</desc>
+  <defs>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#242926" stroke-width="2"/>
+    </marker>
+    <marker id="arrow-rust" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#9c422c" stroke-width="2.2"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="640" fill="#f4f1e9"/>
+  <g font-family="system-ui, sans-serif" fill="#242926">
+    <text x="550" y="45" text-anchor="middle" font-size="28" font-weight="600">Trois espaces, un travail relié</text>
+    <text x="550" y="77" text-anchor="middle" font-size="19" fill="#62665c">Des fonctions et des responsabilités, pas des niveaux d'accès.</text>
+
+    <!-- Périmètres fonctionnels : pas de coffres privés ni de droits implicites. -->
+    <g fill="#fffdf7" stroke="#62665c" stroke-width="1.8" stroke-dasharray="7 6">
+      <rect x="40" y="112" width="260" height="420" rx="12"/>
+      <rect x="420" y="112" width="260" height="420" rx="12"/>
+      <rect x="800" y="112" width="260" height="420" rx="12"/>
+    </g>
+    <g text-anchor="middle">
+      <g font-size="24" font-weight="600">
+        <text x="170" y="151">Espace agent</text>
+        <text x="550" y="151">Espace commun</text>
+        <text x="930" y="151">Espace humain</text>
+      </g>
+      <g font-size="18">
+        <text x="170" y="184">Cadre et préparation</text>
+        <text x="550" y="184">Matière partagée</text>
+        <text x="930" y="184">Compréhension et action</text>
+      </g>
+    </g>
+
+    <!-- Agent et outillage : processeur, puis documents de préparation. -->
+    <g fill="none" stroke="#242926" stroke-width="2.4">
+      <rect x="127" y="233" width="86" height="86" rx="10" fill="#f4f1e9"/>
+      <rect x="147" y="253" width="46" height="46" rx="4"/>
+      <path d="M143 221 V233 M170 221 V233 M197 221 V233 M143 319 V331 M170 319 V331 M197 319 V331 M115 249 H127 M115 276 H127 M115 303 H127 M213 249 H225 M213 276 H225 M213 303 H225"/>
+    </g>
+    <g fill="#f4f1e9" stroke="#62665c" stroke-width="2">
+      <path d="M104 365 H143 L157 379 V429 H104 Z M143 365 V379 H157"/>
+      <path d="M185 375 H224 L238 389 V439 H185 Z M224 375 V389 H238"/>
+    </g>
+    <path d="M115 390 H145 M115 403 H140 M196 400 H226 M196 413 H221" fill="none" stroke="#62665c" stroke-width="2"/>
+
+    <!-- Commun : objets documentaires liés, référence distincte et non dupliquée. -->
+    <g fill="none" stroke="#62665c" stroke-width="2">
+      <path d="M499 287 L530 323 M603 287 L570 323 M510 260 H590"/>
+    </g>
+    <g fill="#f4f1e9" stroke="#62665c" stroke-width="2">
+      <path d="M455 225 H489 L502 238 V285 H455 Z M489 225 V238 H502"/>
+      <path d="M596 225 H630 L643 238 V285 H596 Z M630 225 V238 H643"/>
+    </g>
+    <g fill="none" stroke="#62665c" stroke-width="2">
+      <path d="M465 250 H491 M465 263 H487 M606 250 H632 M606 263 H628"/>
+    </g>
+    <path d="M524 313 H562 L578 329 V384 H524 Z" fill="#242926" stroke="#242926" stroke-width="2"/>
+    <path d="M562 316 V329 H575 M535 344 H566 M535 358 H566 M535 372 H558" fill="none" stroke="#fffdf7" stroke-width="2"/>
+
+    <!-- Humain : une interface de lecture et d'intervention, pas un dossier privé. -->
+    <g fill="#f4f1e9" stroke="#242926" stroke-width="2.4">
+      <rect x="832" y="228" width="196" height="139" rx="6"/>
+      <path d="M832 254 H1028" fill="none"/>
+    </g>
+    <g fill="#62665c">
+      <circle cx="845" cy="241" r="3"/><circle cx="857" cy="241" r="3"/><circle cx="869" cy="241" r="3"/>
+    </g>
+    <g fill="none" stroke="#62665c" stroke-width="2">
+      <path d="M849 276 H949 M849 293 H938 M849 310 H952"/>
+      <rect x="850" y="329" width="115" height="18" rx="3"/>
+    </g>
+    <path d="M981 287 L981 324 L991 315 L1000 335 L1009 331 L999 310 L1012 309 Z" fill="#9c422c"/>
+    <g fill="none" stroke="#242926" stroke-width="2.4">
+      <circle cx="930" cy="413" r="13"/>
+      <path d="M905 451 V444 C905 424 955 424 955 444 V451"/>
+    </g>
+
+    <!-- Liens aller et retour : aucune chaîne de promotion automatique. -->
+    <g fill="none" stroke-width="2.8">
+      <path d="M312 290 H408" stroke="#242926" marker-end="url(#arrow-ink)"/>
+      <path d="M692 290 H788" stroke="#242926" marker-end="url(#arrow-ink)"/>
+      <path d="M788 430 H692" stroke="#9c422c" marker-end="url(#arrow-rust)"/>
+      <path d="M408 430 H312" stroke="#9c422c" marker-end="url(#arrow-rust)"/>
+    </g>
+    <g text-anchor="middle" font-size="18">
+      <text x="360" y="267">Préparer</text>
+      <text x="740" y="267">Restituer</text>
+      <text x="740" y="461" fill="#9c422c">Corriger</text>
+      <text x="360" y="461" fill="#9c422c">Réutiliser</text>
+    </g>
+    <g text-anchor="middle" font-size="17">
+      <text x="170" y="466">Instructions et brouillons</text>
+      <text x="170" y="504">Entretien dans le mandat</text>
+      <text x="550" y="428">Sources et analyses</text>
+      <text x="550" y="504">Références retenues</text>
+      <text x="930" y="504">Lire · intervenir · décider</text>
+    </g>
+    <text x="550" y="578" text-anchor="middle" font-size="20" font-weight="600">L'agent peut entretenir les interfaces destinées à l'humain.</text>
+    <text x="550" y="611" text-anchor="middle" font-size="18" fill="#62665c">Les retours sont intégrés selon le mandat, sans dupliquer la référence.</text>
+  </g>
+</svg>

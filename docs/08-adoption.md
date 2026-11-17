@@ -6,6 +6,8 @@
 
 Copier `examples/vault/` dans un dossier indépendant. L’ouvrir comme vault Obsidian, lire `Accueil.md` et tester d’abord en lecture seule. Le mini-vault ne requiert pas de plugin communautaire. Obsidian peut créer sa propre configuration locale à l’ouverture ; ne pas la republier avec les notes.
 
+Pour le parcours complet (registres, design et module maître facultatif compris), copier plutôt le contenu du kit sans `.git`, `.obsidian` ni état personnel dans un dossier indépendant. Suivre le [scénario progressif](../examples/SCENARIO.md) avec cette copie comme racine ; ses sorties sont bornées à `atelier/`. Il n’est pas nécessaire d’ajouter ces exercices au mini-vault minimal.
+
 Ouvrir le vault de démonstration seul pour vérifier que les liens ne sont pas résolus accidentellement par des notes du vault de travail. Le contenu doit rester compréhensible en Markdown, même sans Obsidian ; les liens wiki sont utilisés seulement dans le mini-vault.
 
 ### Adopter dans un vault existant
@@ -19,18 +21,28 @@ Ouvrir le vault de démonstration seul pour vérifier que les liens ne sont pas 
 
 Les modèles ont des champs volontairement vides. Les remplir n’est pas une approbation automatique. Les métadonnées du kit ne doivent pas remplacer celles qu’un plugin gère pour son propre fonctionnement.
 
+## Module XLSX facultatif
+
+Le [chapitre sur le maître](06-classeur-maitre.md) et son [module](../modules/classeur-maitre/README.md) restent séparés du socle. Le XLSX et sa vue Markdown se lisent sans exécuter les scripts. Pour régénérer ou tester, choisir explicitement un environnement isolé avec les dépendances du module ; une lecture de scénario ne vaut pas autorisation d’installation. Les tests de `scripts/` ne les importent pas. La recette Microsoft Excel reste distincte des tests Python et du rendu LibreOffice.
+
+## HTML et édition : deux exercices documentaires facultatifs
+
+Le [chapitre HTML](07-html-pour-comprendre.md), le [cas de maître dense](../examples/HTML-MAITRE-DENSE.md) et le [complément édition](../modules/html-edition/README.md) ne distribuent aucune application HTML ni service. Ils proposent une démarche générique et des exercices de conception dans `atelier/`, à partir du cas fictif d'un festival. Le XLSX reste maître dans son périmètre ; les consignes n’autorisent aucun writer, déploiement ou transfert de données professionnelles. Une future réalisation et sa recette demandent un mandat séparé.
+
 ## Utiliser avec Hermes
 
 Les rôles généraux des fichiers de contexte et des skills sont décrits dans la documentation officielle ; leur découverte dépend du contexte de lancement et de la version.[1][2]
 
 - **Identité du profil** : conserver son identité existante. Aucun `SOUL.md`, mémoire personnelle, modèle LLM ou paramètre d’authentification n’est fourni par ce kit.
 - **Contrat du workspace** : `examples/vault/AGENTS.md` est un exemple à examiner, pas un fichier à copier par-dessus un contrat existant. Au premier essai, demander explicitement à l’agent de lire ce fichier ; ne pas supposer qu’il a été chargé automatiquement.
-- **Skills** : les quatre dossiers `skills/gd-*` contiennent des procédures autonomes au format `SKILL.md`.[2] Les lire avant installation et suivre le mécanisme de sa version de Hermes. Une méthode prudente consiste à demander à son propre agent de les examiner puis de proposer leur installation dans un profil de test, sans modifier les skills homonymes.
+- **Skills** : les sept dossiers `skills/gd-*` contiennent des procédures autonomes au format `SKILL.md`.[2] Les lire avant installation et suivre le mécanisme de sa version de Hermes. Une méthode prudente consiste à demander à son propre agent de les examiner puis de proposer leur installation dans un profil de test, sans modifier les skills homonymes.
 - **Racine de travail** : confirmer le dossier réellement accessible par les outils. Un chemin hôte et un chemin de conteneur ne sont pas interchangeables.
+
+Les trois ajouts, `gd-tenir-registre`, `gd-construire-design-commun` et `gd-capitaliser-lecon`, sont des ébauches 0.1.0. Pour un premier essai, demander simplement la lecture explicite du `SKILL.md` dans la copie, sans l’installer. Les quatre procédures du socle et les trois ajouts sont reliés aux étapes du scénario ; ce raccordement documentaire ne prouve aucun chargement automatique.
 
 ### Vérifier l’adoption des skills
 
-Après l’essai, noter la version de Hermes utilisée, le profil choisi et l’emplacement réel de chaque skill. Vérifier que les quatre noms `gd-*` n’ont pas écrasé un homonyme, que l’agent peut charger chaque procédure et qu’il lit le bon contrat de workspace. Consigner ce qui a été réellement testé ; ne pas déduire une installation réussie de la seule copie des fichiers.
+Après l’essai, noter la version de Hermes utilisée, le profil choisi et l’emplacement réel de chaque skill. Vérifier que les sept noms `gd-*` n’ont pas écrasé un homonyme, que l’agent peut charger chaque procédure et qu’il lit le bon contrat de workspace. Consigner ce qui a été réellement testé ; ne pas déduire une installation réussie de la seule copie des fichiers.
 
 Les instructions documentaires ne sont pas un contrôle d’accès technique. Pour protéger des données, limiter aussi les montages, comptes, outils et permissions. Le kit ne fournit ni sandbox, ni isolation de profil, ni garde-fou système.
 
@@ -49,6 +61,15 @@ Le guide et le mini-vault sont utilisables immédiatement. L’installation auto
 - [ ] Il n’accorde pas une validation parce que le contrôle technique réussit.
 - [ ] Les droits d’écriture et la publication externe restent distincts.
 - [ ] La configuration et les notes de travail préexistantes restent intactes.
+- [ ] Une réponse partielle réutilise la question existante sans inventer d’accord.
+- [ ] La préparation du design explique le processus, les outils et les rôles sans changer les données ni annoncer de faux tests.
+- [ ] Dans le parcours complet, seuls les candidats autorisés dans `atelier/` sont écrits.
+- [ ] Si le module maître est essayé, l’export ne réécrit pas la source et refuse une destination occupée.
+- [ ] L’adoption d’un maître réel reste une décision distincte de la réussite de l’exemple.
+- [ ] Si la branche HTML est suivie, l’agent conserve l’autorité du maître et les distinctions de sens dans les vues proposées.
+- [ ] Le mandat d’édition reste documentaire ; aucun service ou writer n’est activé depuis sa seule lecture.
+
+Suite : [maintenance et sécurité](09-maintenance-securite.md).
 
 ## Sources
 
