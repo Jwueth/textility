@@ -35,3 +35,5 @@ Les traces utiles à une décision peuvent avoir une durée différente des fich
 Le vérificateur fourni contrôle un sous-ensemble explicite : chemins de liens locaux, liens wiki, métadonnées du scénario et noms de fichiers sensibles connus. Il ne sait pas juger la vérité d’une phrase, vérifier une identité de validateur, décider de droits de propriété ou certifier une confidentialité complète.
 
 Ne pas remplacer ces limites par « tout est validé ». Dire quel contrôle a été exécuté, sur quels fichiers et ce qui reste à vérifier. En cas de doute sur une fuite, voir [SECURITY.md](../SECURITY.md).
+
+Suite : [provenance, choix et limites](10-provenance.md).

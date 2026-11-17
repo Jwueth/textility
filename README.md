@@ -33,9 +33,10 @@ Les cinq verbes ne correspondent **pas à cinq skills** : l’arbitrage reste hu
 ## Ce qui est inclus
 
 - **Des guides** : responsabilités, autorité, conventions, workflows, adoption, maintenance et sécurité.
-- **Six modèles** : contrat d’intervention, proposition, décision, référence, reprise et trace.
-- **Quatre skills** : cadrer un échange, curer un document, reprendre un contexte, réviser une référence.
-- **Un exemple fictif** : scénario de prêt de matériel et mini-vault Obsidian autonome.
+- **Six modèles de notes** : contrat d’intervention, proposition, décision, référence, reprise et trace.
+- **Quatre prolongements méthodologiques** : registres, design commun, maître et projections, puis HTML pour rendre un maître dense intelligible. Modèles, illustrations fictives, module XLSX optionnel et complément documentaire sur l’édition guidée les accompagnent.
+- **Sept procédures** : quatre skills de socle (cadrage, curation, reprise, révision), plus trois ébauches pour tenir les registres, construire un design commun et capitaliser une leçon.
+- **Un scénario progressif fictif** : reprendre la règle de prêt, tenir ses registres, préparer le design des mêmes supports, essayer un classeur maître et sa projection, puis instruire une révision et capitaliser. Une branche de conception complémentaire traite le HTML et l’édition d’un maître dense, sans changer la règle de prêt. Un mini-vault autonome permet aussi un essai court.
 - **Des contrôles Python** : vérificateur statique en lecture seule et tests, sans dépendance externe.
 
 Aucun serveur, gestionnaire de tâches, plugin communautaire, compte connecté ou export de profil n’est imposé. Le kit ne contient aucune donnée professionnelle réelle ; les événements et validations du démonstrateur sont fictifs, pas des résultats de test d’agent.
@@ -51,7 +52,9 @@ Aucun serveur, gestionnaire de tâches, plugin communautaire, compte connecté o
 
 5. Vérifier qu’il cite la décision ou la référence : registre commun, pas de copie personnelle officielle, durée de conservation non décidée. Le cache ne suffit pas comme preuve autonome.
 
-Les approbations fictives ne doivent jamais être reprises dans un document réel. Pour aller plus loin, suivre le [guide d’adoption](docs/04-adoption.md) et tester les révisions sur copies.
+Pour le parcours complet, suivre les étapes du [scénario](examples/SCENARIO.md) : copier le contenu du kit sans état local, puis travailler uniquement dans `atelier/` sur cette copie. Le scénario relie chaque étape à sa procédure, sa sortie attendue et son contrôle humain. Lire un `SKILL.md` à la demande ne prouve pas son installation native.
+
+Les approbations fictives ne doivent jamais être reprises dans un document réel. Pour aller plus loin, suivre le [guide d’adoption](docs/08-adoption.md) et tester les révisions sur copies.
 
 **Ne pas écraser `SOUL.md`, `AGENTS.md`, la mémoire ou les conventions de l’utilisateur.** Adapter le kit à l’existant, pas l’inverse. Une convention documentaire ne remplace ni les permissions techniques ni l’autorisation de publication.
 
@@ -59,15 +62,21 @@ Les approbations fictives ne doivent jamais être reprises dans un document rée
 
 | Pour… | Lire |
 |---|---|
-| Comprendre qui produit, contrôle et décide | [Principes](docs/01-principes.md) |
-| Distinguer sources, propositions, références et caches | [Conventions](docs/02-conventions.md) |
-| Conduire la curation, la reprise et la révision | [Workflows](docs/03-workflows.md) |
-| Essayer le kit et adapter son environnement | [Adoption](docs/04-adoption.md) |
-| Entretenir les documents et préparer un partage | [Maintenance et sécurité](docs/05-maintenance-securite.md) |
+| Comprendre qui produit, contrôle et décide | [01 — Principes](docs/01-principes.md) |
+| Qualifier les fonctions et formes documentaires sans confondre format et autorité | [02 — Conventions](docs/02-conventions.md) |
+| Choisir un parcours, conduire la curation, la reprise, la révision et la capitalisation | [03 — Workflows](docs/03-workflows.md) |
+| Suivre sources, questions et décisions sans les dupliquer | [04 — Registres](docs/04-registres.md) |
+| Construire un design commun avec des outils et des contrôles adaptés | [05 — Design commun](docs/05-design-commun.md) |
+| Distinguer le maître de ses vues et contrôler un changement | [06 — Classeur maître](docs/06-classeur-maitre.md) · [module XLSX optionnel](modules/classeur-maitre/README.md) |
+| Rendre un maître dense intelligible, puis cadrer son édition | [07 — HTML et compréhension](docs/07-html-pour-comprendre.md) · [complément édition](modules/html-edition/README.md) |
+| Essayer le kit et adapter son environnement | [08 — Adoption](docs/08-adoption.md) |
+| Entretenir les documents et préparer un partage | [09 — Maintenance et sécurité](docs/09-maintenance-securite.md) |
+| Comprendre la filiation et les limites | [10 — Provenance](docs/10-provenance.md) |
+| Suivre le parcours et contrôler chaque étape | [Scénario progressif](examples/SCENARIO.md) |
 | Préparer ses propres documents | [Modèles](templates/README.md) |
-| Examiner les procédures proposées à l’agent | [Skills](skills/README.md) |
-| Suivre un exemple, y compris le refus et l’inconnue | [Scénario](examples/SCENARIO.md) |
-| Comprendre la filiation et les limites | [Provenance](docs/06-provenance.md) |
+| Choisir une procédure selon le travail à faire | [Skills et ébauches](skills/README.md) |
+
+Les quatre prolongements sont facultatifs. Le volet HTML est documentaire : démarche générique, exercice fictif de conception et exigences d’édition ; aucune application HTML, writer ou serveur supplémentaire n’est livré. Le module XLSX livre un exemple et un exporteur borné, pas un éditeur de production. Ouvrir le fichier ne requiert pas Python ; ses scripts optionnels utilisent `openpyxl`, distinct des contrôles de socle en bibliothèque standard. Aucun outil n’est installé à la lecture. Commencer par le socle et n’adopter que ce qui répond à un besoin réel.
 
 ## Contrôler une copie
 
@@ -80,10 +89,12 @@ python -m unittest discover -s scripts -p "test_*.py" -v
 
 Si Python s’appelle `python3` sur votre système, utiliser ce nom. Le vérificateur ne corrige rien et n’approuve aucun contenu. Les tests utilisent des répertoires temporaires. Consulter la [notice des contrôles](scripts/README.md) pour leur portée exacte.
 
-**Tests statiques ≠ comportement de l’agent.** Le vérificateur et les sept tests de non-régression ont été exécutés sur cette préparation locale. Le chargement natif des skills, la recette Obsidian et les essais comportementaux restent à vérifier dans l’environnement destinataire.
+Les tests du module XLSX se lancent séparément selon sa [notice](modules/classeur-maitre/README.md), après choix explicite de son environnement et de ses dépendances. Ils ne sont pas requis pour découvrir le socle.
+
+**Tests statiques ≠ comportement de l’agent.** Le vérificateur et les sept tests de non-régression ont été exécutés sur cette préparation locale. Les trois ébauches sont au stade documentaire 0.1.0. Le chargement natif des sept skills, la recette Obsidian et les essais comportementaux restent à vérifier dans l’environnement destinataire.
 
 ## Origine et réutilisation
 
-Le nom Textility s’inspire du concept de *textility* chez Tim Ingold ; voir la [provenance](docs/06-provenance.md).
+Le nom Textility s’inspire du concept de *textility* chez Tim Ingold ; voir la [provenance](docs/10-provenance.md).
 
 La [licence MIT](LICENSE) du kit d’origine est conservée. Voir la [politique de sécurité](SECURITY.md) et l’[historique](CHANGELOG.md).

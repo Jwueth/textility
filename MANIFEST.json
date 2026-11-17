@@ -10,8 +10,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 2220,
-      "sha256": "07a7ea30f0615d6d89235b4a71d9bb6c6a7fbc703e024b43718958d80507698c"
+      "bytes": 4199,
+      "sha256": "715735f67d2675d7367bf04fb73d9ef42cf271e9e4c66ef07f5d6bd4eaf8ecd7"
     },
     {
       "path": "LICENSE",
@@ -20,13 +20,28 @@
     },
     {
       "path": "README.md",
-      "bytes": 6409,
-      "sha256": "326f3e1cc06e4bd4287a9e3136aeefc111a346100bf5bb119deb699ed53ea0a8"
+      "bytes": 9044,
+      "sha256": "6810698e77c9c0938408db95ff9ea82d3c9e9e1c34bd9c641fb1dd486ef3e737"
     },
     {
       "path": "SECURITY.md",
       "bytes": 979,
-      "sha256": "0c2baff1b1f5588445690bd9a225e9d1da42ce27ad94306eaa0c17f8cf5b0c89"
+      "sha256": "6a63b436688bfba39ba015e3e3e266cbc4abf3badcb96f7dbcc890d35979e110"
+    },
+    {
+      "path": "assets/experience-et-capitalisation.svg",
+      "bytes": 8899,
+      "sha256": "6b43dacfed352f3b862c063b822354b8a8021da4c4aef9b0fff22ccf81227826"
+    },
+    {
+      "path": "assets/maitre-et-vues.svg",
+      "bytes": 8693,
+      "sha256": "3e5321b5099d20aee03762b1bac142618dcb614b3cacfbf6defd79aa658028ac"
+    },
+    {
+      "path": "assets/modes-espaces.svg",
+      "bytes": 6345,
+      "sha256": "99fccf217afd36dd8cbbb9b647fe2e31c42228e1022b364751cc0fa1df957acb"
     },
     {
       "path": "assets/reprise.svg",
@@ -45,38 +60,73 @@
     },
     {
       "path": "docs/01-principes.md",
-      "bytes": 5035,
-      "sha256": "f7b7e49dbcc01b3cb3fd96a16d1ba2ab1c6f002ebac9ce0f9a989a82c155f87f"
+      "bytes": 6091,
+      "sha256": "225b6e4da30cdf7b25e9bd2cbd20b63fc497de3d77ff4ac8ddc22eb4b18c252c"
     },
     {
       "path": "docs/02-conventions.md",
-      "bytes": 5448,
-      "sha256": "6895ad904c8387c2ad527756ba128492aca689ca4bb7fa8c26aea7c82db6e397"
+      "bytes": 8961,
+      "sha256": "70a39fc85c898380792e6516751aefb51437416e2bce40e05f74de43f50d23ff"
     },
     {
       "path": "docs/03-workflows.md",
-      "bytes": 5373,
-      "sha256": "f428fdc35954adacbebb27e8b16479b170d3d867859209bff58d9a4531bee980"
+      "bytes": 11342,
+      "sha256": "826a2b0b817a1a9d292a1e99f0bc60c71b9cc53009d4c5be00e125c19749daf3"
     },
     {
-      "path": "docs/04-adoption.md",
-      "bytes": 4869,
-      "sha256": "6f02d9c111e423d7a84a700cfa9a72ca80f97dcfc4add574bc5c53650d41fe2b"
+      "path": "docs/04-registres.md",
+      "bytes": 8815,
+      "sha256": "d7cd1b5c7c989713f20f3a50b96745acfffb990c8848d0d35eba44e29bc3b946"
     },
     {
-      "path": "docs/05-maintenance-securite.md",
-      "bytes": 3184,
-      "sha256": "2e58523f5e0dc7adb62e94af06a6446b2d2d59f41b3ea5a7b6dc206cadea6239"
+      "path": "docs/05-design-commun.md",
+      "bytes": 5789,
+      "sha256": "aa970df4ad25032627327a997bfb230717782433fb15900abc3d1966c1f2162d"
     },
     {
-      "path": "docs/06-provenance.md",
-      "bytes": 3427,
-      "sha256": "1619949819543bca7309e02033b96ca62f71100aa1b3236dc412d3aa971a60ba"
+      "path": "docs/06-classeur-maitre.md",
+      "bytes": 7412,
+      "sha256": "c27489e1e3b59fdf959c2ce7a2011796810396fae6a4ccd4ee7819447c75b0bb"
+    },
+    {
+      "path": "docs/07-html-pour-comprendre.md",
+      "bytes": 4319,
+      "sha256": "e8aac8b2481210b417025122c34275bb01f5fd0284ba3b45f395d47e8d6b704b"
+    },
+    {
+      "path": "docs/08-adoption.md",
+      "bytes": 7668,
+      "sha256": "fb677a47d0c9633d34488aee286017f56f2e4e5bb26be9cf432178acb17bed6f"
+    },
+    {
+      "path": "docs/09-maintenance-securite.md",
+      "bytes": 3243,
+      "sha256": "8b333825e6c9702fddc908f5b45094fc0718d9a548d0c6a6c54115a067f67ecb"
+    },
+    {
+      "path": "docs/10-provenance.md",
+      "bytes": 4910,
+      "sha256": "20716c453e9bafc8790a8ee7fa856ebe002e69a009a4db5b0497a646800cb14b"
+    },
+    {
+      "path": "examples/DESIGN-COMMUN.md",
+      "bytes": 4671,
+      "sha256": "6ba0a4843e7da6c00f1d3567c4b971855030fb00fef6b4b992766c9a1c9d7df1"
+    },
+    {
+      "path": "examples/HTML-MAITRE-DENSE.md",
+      "bytes": 4061,
+      "sha256": "cac8d53806a963b78f60147d637c95fcce95ce4a0550cc8cb33f621199224791"
+    },
+    {
+      "path": "examples/REGISTRES.md",
+      "bytes": 5129,
+      "sha256": "6a42fb149a1014e7947f6ed151fc52d13232cde3d99ab5427374207be20c3654"
     },
     {
       "path": "examples/SCENARIO.md",
-      "bytes": 2886,
-      "sha256": "d9f998c5a002abbf28bdcd52b3e72d64add2ead82abdebb2ac1a9699c1ef7817"
+      "bytes": 18585,
+      "sha256": "66a05c8da885698d6cf805b1d2e671962150e4260fd08b1260be4302245fdcd1"
     },
     {
       "path": "examples/vault/00_Inbox/Question - conservation.md",
@@ -129,6 +179,46 @@
       "sha256": "707efdb9776fd8785c8a3b098a07cd91122527c5612899cff61cb5bafee0c0ec"
     },
     {
+      "path": "modules/classeur-maitre/README.md",
+      "bytes": 6151,
+      "sha256": "990c48c9c18e24bec0b2a1bf38cb1e5276bc507f9fb754bb3ba1829afd3f7a0d"
+    },
+    {
+      "path": "modules/classeur-maitre/build_demo.py",
+      "bytes": 4555,
+      "sha256": "34983f309db0ba48de635a5ec4812e791b69d75875bc39abed92da66c2d4be15"
+    },
+    {
+      "path": "modules/classeur-maitre/export_markdown.py",
+      "bytes": 4841,
+      "sha256": "c4ff75905eb21cadfbb984c41eb51edd3edc898c3975351e674713db8e50434c"
+    },
+    {
+      "path": "modules/classeur-maitre/maitre-prets-demo.xlsx",
+      "bytes": 7838,
+      "sha256": "27ee3d9791913bb7d03e87b47594e96184cd6184931e37e40f76bb1ae464bc58"
+    },
+    {
+      "path": "modules/classeur-maitre/prets-generes.md",
+      "bytes": 612,
+      "sha256": "15e7bde93520430d9df455e9207e484927fcf173cd5a5617c111566c66684ddc"
+    },
+    {
+      "path": "modules/classeur-maitre/requirements.txt",
+      "bytes": 16,
+      "sha256": "06d28d69e958deafb09f0a44fcae9b548f15e4debc14ebc39aad5f0934856fbf"
+    },
+    {
+      "path": "modules/classeur-maitre/test_module.py",
+      "bytes": 9123,
+      "sha256": "6b56516c79d3741a0d2dc987d1801842af163eef884752735c54c606b026d61a"
+    },
+    {
+      "path": "modules/html-edition/README.md",
+      "bytes": 4366,
+      "sha256": "81fe320b6ffe5cda1226c00d67bfa7fdd3a084ab21498938ab54eb6a369c87c8"
+    },
+    {
       "path": "scripts/README.md",
       "bytes": 3567,
       "sha256": "b1234033a650d24fe7c31791d5b23b6e46facb9b494bd219725e25c136e9d381"
@@ -145,13 +235,23 @@
     },
     {
       "path": "skills/README.md",
-      "bytes": 1248,
-      "sha256": "7edf0f6be8c0ba6ab899c1f1f1c14c307051ab85efbaa95684f3cc5f726ebe41"
+      "bytes": 4070,
+      "sha256": "d1d63024686dc76015d3e1188678c5287422938c6bdd7891f72d3db16c9e5204"
     },
     {
       "path": "skills/gd-cadrer-echange/SKILL.md",
       "bytes": 1657,
       "sha256": "2491ae7e3f1ba70f3e6d048f90161246003c659a2dca05292e060ef3cedff82b"
+    },
+    {
+      "path": "skills/gd-capitaliser-lecon/SKILL.md",
+      "bytes": 3574,
+      "sha256": "5bc7f4e0f7a13758f9cfdd7df5c15f3489cf2558f0e9a059f88b0dbcc408bcc0"
+    },
+    {
+      "path": "skills/gd-construire-design-commun/SKILL.md",
+      "bytes": 2691,
+      "sha256": "7ae2aa9a5961defacb9cf72c5e36c59196b70864fff1b6366e57ec1f3844a54e"
     },
     {
       "path": "skills/gd-curer-document/SKILL.md",
@@ -167,6 +267,11 @@
       "path": "skills/gd-reviser-reference/SKILL.md",
       "bytes": 1826,
       "sha256": "1b3b500a081de824f8ce9886f7022349ded94b4ffa765d15649b50a46d8f9179"
+    },
+    {
+      "path": "skills/gd-tenir-registre/SKILL.md",
+      "bytes": 2325,
+      "sha256": "39326abd49dbfe70f3e2d76326386f41de2c9791420a0e5ab87a6289184fdefb"
     },
     {
       "path": "templates/Contrat-intervention.md",
@@ -185,13 +290,28 @@
     },
     {
       "path": "templates/README.md",
-      "bytes": 1091,
-      "sha256": "70e945ad86662456a9fffc19cc1de7a0b88a84d7dd803991723dd3fadcae4dc1"
+      "bytes": 1971,
+      "sha256": "f762ee55885119d9a22c6ff7ec98ab739d926daeb2f859fb8872530ddaf0e1b2"
     },
     {
       "path": "templates/Reference.md",
       "bytes": 968,
       "sha256": "92c1a0b69ca09b8a8c2579bc92b09fb589dda5f41e9fe4aaf6bc06e74c90e395"
+    },
+    {
+      "path": "templates/Registre-decisions.md",
+      "bytes": 1926,
+      "sha256": "3e6d565982667cad751d680c856d729f01adcc93422fca0ac32c98319c9968ba"
+    },
+    {
+      "path": "templates/Registre-questions.md",
+      "bytes": 1456,
+      "sha256": "37aa39ba53a2b73b7740ad7fc44e950d960f7736bee412a14fa452e1e762727f"
+    },
+    {
+      "path": "templates/Registre-sources.md",
+      "bytes": 1388,
+      "sha256": "fddd99efc8137d863ac37edb1025dcee302f01ad70948c82b5d8604aba300134"
     },
     {
       "path": "templates/Reprise.md",

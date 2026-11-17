@@ -6,4 +6,4 @@ Si une donnée sensible est découverte dans une copie publiée : interrompre la
 
 Aucun canal privé de signalement dédié n’est configuré par ce kit. Avant une diffusion à grande échelle, le mainteneur choisit et documente ce canal.
 
-Les instructions de l’agent ne remplacent pas des permissions système. Le vérificateur est une aide limitée, pas une certification de sécurité. Voir [les contrôles avant partage](docs/05-maintenance-securite.md).
+Les instructions de l’agent ne remplacent pas des permissions système. Le vérificateur est une aide limitée, pas une certification de sécurité. Voir [les contrôles avant partage](docs/09-maintenance-securite.md).
